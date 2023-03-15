@@ -26,3 +26,4 @@ Route::get('/header_image', [HomeController::class, 'headerImage'])->name('heade
 Route::post('/save_header_image', [HomeController::class, 'saveHeaderImage'])->name('save_header_image');
 Route::get('/about_us', [HomeController::class, 'aboutUs'])->name('about_us');
 Route::post('/save_about_us/{id}', [HomeController::class, 'saveAboutUs'])->name('save_about_us');
+Route::get('test');
